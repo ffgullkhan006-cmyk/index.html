@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gullkhan Pro with Image</title>
+<title>Gullkhan Pro</title>
 <style>
 body {
     margin: 0;
@@ -12,39 +12,26 @@ body {
     color: white;
     text-align: center;
 }
-
 .hero {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
-
 .hero img {
     width: 300px;
     border-radius: 20px;
     box-shadow: 0 0 20px #00f6ff;
     animation: float 3s ease-in-out infinite;
 }
-
 @keyframes float {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-20px); }
     100% { transform: translateY(0px); }
 }
-
-h1 {
-    font-size: 50px;
-    margin: 20px 0 10px 0;
-}
-
-p {
-    font-size: 20px;
-    max-width: 600px;
-}
-
+h1 { font-size: 50px; margin: 20px 0 10px 0; }
+p { font-size: 20px; max-width: 600px; }
 .btn {
     margin-top: 20px;
     padding: 12px 30px;
@@ -56,7 +43,6 @@ p {
     box-shadow: 0 0 15px #00f6ff;
     transition: 0.3s;
 }
-
 .btn:hover {
     transform: scale(1.1);
     box-shadow: 0 0 25px #ff00ff;
@@ -66,15 +52,15 @@ p {
 <body>
 
 <section class="hero">
-    <img src="images/hero-image.jpg" alt="Hero Image">
+    <img src="hero-image.jpg" alt="Hero Image">
     <h1>Gullkhan Pro</h1>
-    <p>This is a stylish website with images and CSS animations.</p>
+    <p>This is a stylish website with image and CSS animation.</p>
     <a href="#features" class="btn">Explore Features</a>
 </section>
 
 <section id="features">
     <h2>Features</h2>
-    <p>Responsive design, animated elements, and images loaded perfectly from folder.</p>
+    <p>Responsive design, animated elements, and image loaded perfectly from same folder.</p>
 </section>
 
 </body>
